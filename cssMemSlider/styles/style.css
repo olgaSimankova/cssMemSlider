@@ -205,7 +205,7 @@ p {
     transition-duration: 0.8s;
 }
 
-@media all and (max-width: 620px) {
+@media all and (max-width: 520px) {
     .slide__container {
         height: 26rem;
         grid-template-rows: 11fr 1fr 1fr;
