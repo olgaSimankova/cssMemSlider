@@ -216,6 +216,11 @@ p {
     .text__container {
         grid-row-start: 3;
     }
+
+    #main__wrapper {
+        margin-top: 1%;
+    }
+
     #slider-1:checked ~ .slide__container{
         transform: translate(0);
     }
