@@ -9,57 +9,33 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <div id="slider">
-        <input type="radio" name="slider" id="slide1" checked>
-        <input type="radio" name="slider" id="slide2">
-        <input type="radio" name="slider" id="slide3">
-        <input type="radio" name="slider" id="slide4">
-        <input type="radio" name="slider" id="slide5">
-        <div id="slides">
-           <div id="overflow">
-              <div class="inner">
-                 <div class="slide slide_1">
-                    <div class="slide-content">
-                       <h2>Slide 1</h2>
-                    </div>
-                 </div>
-                 <div class="slide slide_2">
-                    <div class="slide-content">
-                       <h2>Slide 2</h2>
-                    </div>
-                 </div>
-                 <div class="slide slide_3">
-                    <div class="slide-content">
-                       <h2>Slide 3</h2>
-                    </div>
-                 </div>
-                 <div class="slide slide_4">
-                    <div class="slide-content">
-                       <h2>Slide 4</h2>
-                    </div>
-                 </div>
-                 <div class="slide slide_5">
-                    <div class="slide-content">
-                       <h2>Slide 5</h2>
-                    </div>
-                 </div>
-              </div>
-           </div>
+    <div id="main__wrapper">
+        <div class="grid__container">
+            <input type="radio" name="slider" id="slider-1" checked>
+            <input type="radio" name="slider" id="slider-2">
+            <input type="radio" name="slider" id="slider-3">
+            <input type="radio" name="slider" id="slider-4">
+            <input type="radio" name="slider" id="slider-5">
+            <div class="slide__container">
+                <div class="slide slide_1"></div>
+                <div class="slide slide_2"></div>
+                <div class="slide slide_3"></div>
+                <div class="slide slide_4"></div>
+                <div class="slide slide_5"></div>
+            </div>
+            <div class="text__container">
+                <p id="text__slide_1">Коротко об учебе в RS School</p>
+                <p id="text__slide_2">Уже поздно менять профессию. Или нет?</p>
+                <p id="text__slide_3">А кем ты был в прошлой жизни?</p>
+                <p id="text__slide_4">Когда пытаешься уснуть, сдав проект.</p>
+                <p id="text__slide_5">Так проходят все выходные</p>
+            </div>
+            <label for="slider-1" class="nav"></label>
+            <label for="slider-2" class="nav"></label>
+            <label for="slider-3" class="nav"></label>
+            <label for="slider-4" class="nav"></label>
+            <label for="slider-5" class="nav"></label>
         </div>
-        <div id="controls">
-           <label for="slide1"></label>
-           <label for="slide2"></label>
-           <label for="slide3"></label>
-           <label for="slide4"></label>
-           <label for="slide5"></label>
-        </div>
-        <div id="bullets">
-           <label for="slide1"></label>
-           <label for="slide2"></label>
-           <label for="slide3"></label>
-           <label for="slide4"></label>
-           <label for="slide5"></label>
-        </div>
-     </div>
+    </div>
 </body>
 </html>
